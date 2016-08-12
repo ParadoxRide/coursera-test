@@ -21,14 +21,14 @@ h1 {
 }
 
 .div1 {
-	background-color: blue;
+	background-color: #181FE8;
 }
 .div2 {
-	background-color: yellow;
+	background-color: #FBF832;
 }
 
 .div3 {
-	background-color: green;
+	background-color: #0ED308;
 }
 
 h3 {
@@ -40,7 +40,7 @@ h3 {
 	right:0;
 	padding: 0;
 	width: 30%;
-	background-color: orange;
+	background-color: #FCAE08;
 
 }
 
