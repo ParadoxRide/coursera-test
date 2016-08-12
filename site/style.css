@@ -1,0 +1,100 @@
+
+* {
+	box-sizing: border-box;
+	padding: 5px;
+	font-family: "Times Roman", Arial, AppleGothic, sans-serif;
+
+}
+
+h1 {
+	text-align: center;
+	font-size: 200%;
+}
+
+.div1, .div2, .div3 {
+	float: left;
+	width: 30%;
+	border: solid 2px;
+	margin: 1%;
+	padding: 0%;
+
+}
+
+.div1 {
+	background-color: blue;
+}
+.div2 {
+	background-color: yellow;
+}
+
+.div3 {
+	background-color: green;
+}
+
+h3 {
+	text-align: center;
+	border: solid 1px;
+	font-size: 130%;
+	position: absolute;
+	top: 0;
+	right:0;
+	padding: 0;
+	width: 30%;
+	background-color: orange;
+
+}
+
+p {
+	margin-top: 50px;
+	padding: 0px;
+
+
+
+
+}
+
+.rContainer {
+
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%
+}
+
+
+/*Desktp*/
+@media screen and ( min-width: 992) {
+	div {
+
+	}
+
+}
+
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 991) {
+	.div1, .div2 {
+		width: 48%;
+		margin: 1%;
+		height: 40%;
+	}
+	.div3 {
+		width: 100%;
+	}
+}
+
+/*Phone*/
+@media screen and (max-width: 767px) {
+	.div1 {
+		width: 100%;
+		clear: right;
+	}
+	.div2 {
+		width: 100%;
+		clear: right;
+	}
+	.div3 {
+		width: 100%;
+		clear: right;
+	}
+}
